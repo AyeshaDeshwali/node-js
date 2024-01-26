@@ -9,3 +9,4 @@ const insertData = async (data) => {
   console.log("Data inserted successfully");
 };
 insertData({ name: "husain", age: 3, city: "Merta City" });
+// insertMany() ka b use kr skte h
