@@ -10,6 +10,12 @@ fs.writeFileSync(`${dirPath}/index.html`, "hello world");
 let fs = require("fs");
 let path = require("path");
 let dirPath = path.join(__dirname, "crud");
+fs.writeFileSync(`${dirPath}/index.html`, "hello world");
+fs.renameSync(`${dirPath}/index.html`, `${dirPath}/index.js`);
+
+let fs = require("fs");
+let path = require("path");
+let dirPath = path.join(__dirname, "crud");
 for (let i = 1; i <= 5; i++) {
   fs.writeFileSync(`${dirPath}/index${i}.html`, "hello world");
 }
