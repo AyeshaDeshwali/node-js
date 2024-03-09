@@ -1,5 +1,5 @@
-// let fs = require("fs");
-// fs.writeFileSync("index.js", "console.log('hello world')");
+let fs = require("fs");
+fs.writeFileSync("index.js", "console.log('hello world')");
 // fs.unlinkSync("index.js");
 
 // let fs = require("fs");
@@ -22,4 +22,3 @@
 //   fs.unlinkSync(input[3]);
 // } else {
 //   console.log("invalid file");
-//
